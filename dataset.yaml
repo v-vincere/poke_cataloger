@@ -1,0 +1,17 @@
+# YOLOv8 dataset configuration file
+
+# Path to the dataset's root directory.
+# All other paths are relative to this one.
+path: /mnt/d/ml_poke/data/
+
+# Training and validation directories
+# Using the same directory for both for simplicity.
+train: images
+val: images
+
+# Number of classes
+nc: 1
+
+# Class names
+names:
+  0: card
